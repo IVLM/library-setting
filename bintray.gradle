@@ -59,7 +59,7 @@ bintray {
         version {
             desc = libraryDescription
             gpg {
-                sign = true
+                sign = false
                 passphrase = properties.getProperty("bintray.gpg.password")
             }
         }
